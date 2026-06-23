@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About conditional</title>
+    <style>
+        .parent{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightgrey;
+        }
+  .child{
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 300px;
+    background-color: lightcyan;
+  }
+  button{
+    margin: 5px 50px;
+  }
+    </style>
+</head>
+<body>
+    
+    <div class="parent">
+        <div class="child">
+        <h1>Voter Checker</h1>
+         <label for="">Enter your age: </label>
+         <input type="text" placeholder="Enter your age">
+         <button>check</button>
+         <h4>Display result: </h4>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
