@@ -160,3 +160,9 @@ let result = checkVowelConsonant("hello JavaScript");
 console.log(`Total length: ${result.total}`);
 console.log(`Total Vowels: ${result.vowelCount}`);
 console.log(`Total Consonants: ${result.consonantCount}`);
+
+
+// Quiz 
+
+https://wayground.com/join?gc=18186921
+18186921
