@@ -111,14 +111,52 @@
 // let square = (val) => val * val;
 // console.log(square(5));
 
-function getStudentReport(eng, math, science, hindi, sanskrit) {
-  let attence = 90;
-  let total = eng + math + science + hindi + sanskrit;
-  let percentage = (total / 500) * 100;
-  return { attence, percentage, total };
+// function getStudentReport(eng, math, science, hindi, sanskrit) {
+//   let attence = 90;
+//   let total = eng + math + science + hindi + sanskrit;
+//   let percentage = (total / 500) * 100;
+//   return { attence, percentage, total };
+// }
+
+// let studentReport = getStudentReport(90, 80, 70, 60, 50);
+// console.log("total marks: ", studentReport.total);
+// console.log("attendance: ", studentReport.attence);
+// console.log("percentage: ", studentReport.percentage);
+
+// IIFE
+
+// function sayHello() {
+//   console.log("Hello Students");
+// }
+// sayHello();
+
+// (function () {
+//   console.log("Hello");
+// })();
+
+// (function (name) {
+//   console.log("hello ", name);
+// })("john");
+
+// (function (a, b) {
+//   console.log(a + b);
+// })(10, 20);
+
+function checkVowelConsonant(str) {
+  let total = str.length;
+  let vowelCount = 0;
+  let consonantCount = 0;
+  for (let ch of str) {
+    if (ch === "a" || ch === "e" || ch === "i" || ch === "o" || ch === "u") {
+      vowelCount++;
+    } else {
+      consonantCount++;
+    }
+  }
+  return { vowelCount, consonantCount, total };
 }
 
-let studentReport = getStudentReport(90, 80, 70, 60, 50);
-console.log("total marks: ", studentReport.total);
-console.log("attendance: ", studentReport.attence);
-console.log("percentage: ", studentReport.percentage);
+let result = checkVowelConsonant("hello JavaScript");
+console.log(`Total length: ${result.total}`);
+console.log(`Total Vowels: ${result.vowelCount}`);
+console.log(`Total Consonants: ${result.consonantCount}`);
