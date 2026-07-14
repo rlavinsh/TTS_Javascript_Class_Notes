@@ -48,3 +48,34 @@
 // let sayHello = function () {
 //   console.log("hello");
 // };
+
+// console.log("code start");
+// console.log(a);
+
+
+// var a = 50;
+// console.log(b);
+// var b = 70;
+// console.log(b);
+// console.log(a);
+
+// console.log("code ends");
+
+// console.log("code start");
+// var num1 = 20;
+// var num2 = 40;
+
+// function c() {
+//   var d = 50;
+//   function e(para) {
+//     console.log(para);
+//   }
+//   console.log("Inside Inner function");
+//   e("John");
+//   console.log(d);
+//   return "Javascript";
+// }
+
+// var f = c();
+// console.log(f);
+// console.log("code ends");

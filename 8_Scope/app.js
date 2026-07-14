@@ -100,17 +100,18 @@
 
 // Variable shadowing : same name se Inner varibale and outer variable defined ho and outer varibale ko hum temprory hide kar dete hein ushi ko variable shadowing kehte hein
 
-let city = "Bhopal";
-function cityName() {
-  let city = "Indore";
-  console.log(city);
-}
-cityName();
-console.log(city);
+// let city = "Bhopal";
+// function cityName() {
+//   let city = "Indore";
+//   console.log(city);
+// }
+// cityName();
+// console.log(city);
 
-let a = 10;
-{
-  let a = 20;
-  console.log(a);
-}
-console.log(a);
+// let a = 10;
+// {
+//   let a = 20;
+//   console.log(a);
+// }
+// console.log(a);
+
