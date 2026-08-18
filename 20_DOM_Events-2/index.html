@@ -5,13 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM Events</title>
   </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .card {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 15px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      /* background-color: green; */
+    }
+    .delete {
+      padding: 10px;
+      border-radius: 10px;
+      background-color: grey;
+      border: none;
+    }
+
+    .new {
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+      background-color: green;
+      border: none;
+    }
+  </style>
   <body>
     <h1>DOM Events</h1>
-    <div class="grandParent">
+    <!-- <div class="grandParent">
         <div class="parent">
             <button class="child">child button</button>
         </div>
+    </div> -->
+
+    <div class="container">
+      <div class="card">
+        <h3>Bike</h3>
+        <button class="delete">Delete</button>
+      </div>
+
+      <div class="card">
+        <h3>Scooty</h3>
+        <button class="delete">Delete</button>
+      </div>
+
+      <div class="card">
+        <h3>car</h3>
+        <button class="delete">Delete</button>
+      </div>
     </div>
+    <button class="new">Add Item</button>
     <!-- <button class="btn">click</button> -->
     <script src="./app.js"></script>
   </body>
