@@ -1,73 +1,73 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: system-ui;
-    background-color: black;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: system-ui;
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 h2 {
-    color: white;
-    margin-bottom: 30px;
-    font-size: 2.5rem;
+  color: white;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
 }
 
 #generateBtn {
-    background-color: white;
-    border: none;
-    padding: 15px 40px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    border-radius: 50px;
-    cursor: pointer;
-    margin-bottom: 40px;
-    transition: transform 0.2s;
+  background-color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 40px;
+  transition: transform 0.2s;
 }
 
 #generateBtn:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 #colorPalette {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .color-card {
-    /* background-color: green; */
-    width: 150px;
-    height: 200px;
-    border-radius: 10px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    padding: 15px;
-    cursor: pointer;
-    transition: transform 0.2s;
+  /* background-color: green; */
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 15px;
+  cursor: pointer;
+  transition: transform 0.2s;
 }
 
 .color-card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .color-code {
-    background-color: white;
-    padding: 8px 15px;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 0.9rem;
+  background-color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
