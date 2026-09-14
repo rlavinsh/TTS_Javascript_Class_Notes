@@ -43,16 +43,16 @@ moviesContainer.append(loadBtn);
 
 // create heading
 
-const heading = document.createElement("h2")
+const heading = document.createElement("h2");
 
-heading.innerText = "Trending Movies"
+heading.innerText = "Trending Movies";
 
-moviesContainer.prepend(heading)
+moviesContainer.prepend(heading);
 
 // creating one line
 
-const line = document.createElement("hr")
+const line = document.createElement("hr");
 
-moviesContainer.insertBefore(line,loadBtn)
+moviesContainer.insertBefore(line, loadBtn);
 
 // console.log(loadBtn);
